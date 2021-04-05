@@ -1,1 +1,98 @@
-p {background-color:green; color: orange; text-align: center;}
+body {
+    margin: 0;
+    padding: 0;
+    max-width: inherit;
+    background: #fff;
+    color: #4a4a4a;
+   }
+   
+   header, footer {
+    font-size: large;
+    text-align: center;
+    padding: 0.3em 0;
+    background-color: #565264;
+    color: #f9f9f9;
+   }
+
+   nav { background: #CCB7AE; }
+   main { background: #D6CFCB; }
+   aside { background: #CCB7AE; }
+
+   body {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 200px 1fr 150px;
+    grid-template-rows: min-content 1fr min-content;
+   }
+   header {
+    grid-row: 1;
+    grid-column: 1 / 4;
+   }
+   nav {
+    grid-row: 2;
+    grid-column: 1 / 2;
+    padding: 0 10px;
+   }
+   main {
+    grid-row: 2;
+    grid-column: 2 / 3;
+    padding: 0 20px;
+   }
+   aside {
+    grid-row: 2;
+    grid-column: 3 / 4;
+    padding: 0 10px;
+   }
+   footer {
+    grid-row: 3;
+    grid-column: 1 / 4;
+   }
+
+   #index {
+       grid-row: 2;
+       grid-column: 1 / 4;
+       padding: 0 200px;
+       text-align: center;
+       font-size: 20px;
+   }
+
+   .button {
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+
+  .start_button:hover {
+    background-color: #A99985;
+    color: white;
+
+  }
+
+  .start_button {
+    background-color: #A6808C;
+    color: white;
+    border-radius: 12px;
+    border: 2px solid black; 
+  }
+
+  .option_button {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 12px;
+    border: 2px solid black; 
+  }
+
+  .help_button {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 12px;
+    border: 2px solid black; 
+    position: absolute;
+    right: 15;
+    bottom: 40;
+  }
