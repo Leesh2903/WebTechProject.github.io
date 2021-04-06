@@ -93,3 +93,9 @@ body {
     right: 15;
     bottom: 40;
   }
+
+  .time {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  

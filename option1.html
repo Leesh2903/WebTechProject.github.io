@@ -12,7 +12,7 @@
 
     <main > 
         <br>
-        <br>
+        <p id="time" class="time"></p>
         <p>Your town's water supply has been contaminated by some sort of infection. Nearly everyone is suffering, some are even dead already. You are yet to suffer, luckily enough 
            to have not been infected. Your towns been placed in a high security lockdown with groups of armed guards at all routes in and out. You must make your escape...
         </p>
@@ -26,19 +26,19 @@
         <a href="ending1.html" class="button main_button">Option 1</a> 
         <br>
         <a href="option2.html" class="button main_button">Option 2</a>
-        <button class="button help_button">HELP!</button>
+        <button class="button help_button" onClick="help1();">HELP!</button>
     </main>
 
     <nav>
         <h5>Links</h5>
 
         <ul>
-            <li><a href="index.html">HOME PAGE</a>
+            <li><a href="index.html" id="link" onmouseover="mouseOver1()" onmouseout="mouseOut1()" onClick="home();">HOME PAGE</a>
         </ul>
     </nav>
 
 
     <footer>&copy 2021 - Lee Shaw</footer>
-
+    <script src="jscript.js"></script>
     </body>
 <html>

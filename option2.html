@@ -10,9 +10,9 @@
         <h5>Player Option 2</h5>
     </header>
 
-    <main > 
+    <main> 
         <br>
-        <br>
+        <p id="time" class="time"></p>
         <p> You leave your house, you live close to the edge of town and you remember there being a small security base close by. Heading for that, hidden in the night you make your way into the building. In the pitch dark room you stagger into
             a table making a loud noise. The building was seemingly empty however the noise seems to have alerted some nearby guards.
         </p>
@@ -26,20 +26,20 @@
         <a href="ending2.html" class="button main_button">Option 1</a> 
         <br>
         <a href="option3.html" class="button main_button">Option 2</a>
-        <button class="button help_button">HELP!</button>
+        <button class="button help_button" onClick="help2();">HELP!</button>
     </main>
 
     <nav>
         <h5>Links</h5>
 
         <ul>
-            <li><a href="index.html">HOME PAGE</a>
-            <li><a href="option1.html">BACK</a>
+            <li><a href="index.html" id="link" onmouseover="mouseOver1()" onmouseout="mouseOut1()" onClick="home();">HOME PAGE</a>
+            <li><a href="option1.html" id="link2" onmouseover="mouseOver2()" onmouseout="mouseOut2()" onClick="back();">BACK</a>
         </ul>
     </nav>
 
 
     <footer>&copy 2021 - Lee Shaw</footer>
-
+    <script src="jscript.js"></script>
     </body>
 <html>
